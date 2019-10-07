@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+//@import "~bootstrap/dist/css/bootstrap.scss";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+
+.inverse {
+  background-color: blue;
+  color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 70px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
