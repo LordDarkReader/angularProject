@@ -8,6 +8,7 @@ import { CreateEmployeeComponent } from './create-employee/create-employee.compo
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
+import { OauthComponent } from './oauth/oauth.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UpdateEmployeeComponent } from './update-employee/update-employee.compo
     CreateEmployeeComponent,
     EmployeeDetailsComponent,
     EmployeeListComponent,
-    UpdateEmployeeComponent
+    UpdateEmployeeComponent,
+    OauthComponent
   ],
   imports: [
     BrowserModule,
